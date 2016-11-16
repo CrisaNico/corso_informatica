@@ -12,7 +12,7 @@ spl_autoload_register(function($class_name) {
 use Classes\Student as Student;
 use Classes\Course as Course;
 use Classes\Person as Person;
-use Classes\DigitalUser as DigitalUser;
+
 
 
 $student1 = new Student("Nico", "22", "nico_crisa@outlook.com");
