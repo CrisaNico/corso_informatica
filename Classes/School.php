@@ -15,6 +15,6 @@ class School{
     }
     
     public function getStudents(){
-        
+        return $this->student;
     }
 }

@@ -20,11 +20,11 @@ class Teacher{
     }
 
     public function getCourse(){
-
+        return $this->courses;
     }
 
     public function setCourse(Course $course){
-
+        $this->course = $course;
     }
 
     public function getSchool(){
