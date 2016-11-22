@@ -34,8 +34,6 @@ $result->execute(array(
     ":id" => $id
 ));
 
-echo "Prova prepare()";
-echo "<br>";
 while($riga = $result->fetch()){
     echo "Nome Studente: " . $riga["name"];
     echo "<br>";
