@@ -25,6 +25,7 @@ $result = $connessione->query("SELECT * FROM student");
 
 //echo json_encode($result->fetchAll());
 
+/*PROVA CON PREAPARE*/
 
 $result = $connessione->prepare("SELECT * FROM student WHERE id = :id LIMIT 1");
 
